@@ -1,0 +1,58 @@
+$blanco: #F8F4E8;
+$pastel: #F3E9C9; 
+$bordo: #A94025;
+$naranja:  #F0B45B; 
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logoPrincipal {
+    height: 10vh; 
+    margin-left: 50px; 
+}
+
+.navbar {
+    background-color: rgba(248, 244, 232, 0.8);
+    ul {
+        width: 100%; 
+        justify-content: space-around;
+        li{
+            a {
+                font-family: 'Oswald', sans-serif;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+    } 
+}
+
+footer {
+    background-color: rgba(248, 244, 232, 0.8);
+    .logoImage {
+        height: 10vh; 
+    }
+    .redesContacto {
+        ul {
+            list-style: none;
+            justify-content: space-around;
+            li {
+                a {
+                    font-size: 4rem;
+                    text-decoration: none; 
+                    color: black; 
+                    margin: 0 20px 0 20px; 
+                }
+            }
+        }
+    }
+    .copyright {
+        font-size: 2rem; 
+        color: black; 
+    }
+}

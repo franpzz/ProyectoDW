@@ -1,0 +1,49 @@
+.actoresPortada {
+    height: 90vh; 
+    background-image: url('../assets/actoresPortada.jpg');
+    background-size: cover;
+    width: 100%; 
+    h1 {
+        font-family: 'Special Elite', cursive;
+        font-size: 5rem;
+        text-align: center;
+        color: white; 
+        padding-top: 20px;
+    }
+}
+
+.actoresContainer {
+    background: linear-gradient(#f5c578, #b89763, #a18964, #87775d);
+    .actorTexto {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        h2 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 2.5rem;
+            text-align: justify;
+        }
+    }
+    #imagenStalin {
+        height: 50vh; 
+        width: 75vh; 
+    }
+    #imagenHitler {
+        height: 50vh; 
+    }
+    #imagenChurch {
+        height: 50vh; 
+    }
+    #imagenMusso {
+        height: 50vh; 
+    }
+    #imagenRoose {
+        height: 50vh; 
+        margin-top: -40px;
+    }
+}
+
+.margenes {
+    margin: 0 50px 0 50px;
+}

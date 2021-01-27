@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+.logoPrincipal {
+    height: 10vh; 
+}
+
+.navbar {
+    background-color: rgba(248, 244, 232, 0.8);
+}
+
+.marg-left-brand {
+    margin-left: 50px;
+}
+
+.navbar ul {
+    width: 100%; 
+    justify-content: space-around;
+}
+
+.navbar ul li>a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}  
+
+footer {
+    background-color: rgba(248, 244, 232, 0.8);
+    margin-bottom: 0;
+}
+
+.logoImage {
+    height: 10vh;
+}
+
+.redesContacto ul li a {
+    font-size: 4rem;
+    text-decoration: none;
+    color: black; 
+    margin: 0 20px 0 20px; 
+}
+
+.redesContacto ul {
+    list-style: none;
+}
+
+.copyright {
+    font-size: 2rem;
+    color:black;  
+}
+
+.justifySpaceAround {
+    justify-content: space-around;
+}

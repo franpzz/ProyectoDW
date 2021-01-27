@@ -1,0 +1,82 @@
+.portadaContainer {
+    background-image: url('../assets/ww2avionesportada.jpg');
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    h1 {
+        font-family: 'Special Elite', cursive;
+        font-size: 6rem;
+        padding-top: 40px;
+        padding-left: 40px; 
+    }
+    p {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        padding-top: 250px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portadaContainer {
+        h1 {
+            text-align: center;
+            padding-left: auto;
+        }
+        p {
+            padding-top: 100px;
+            text-align: center;
+            padding-left: auto;
+        }
+    }
+    .portadaTexto {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.seccionAyT {
+    background-color: $blanco;
+    #tituloAyT {
+        padding-top: 20px; 
+        text-align: center;
+        background-color: $naranja;
+        font-size: 4rem;
+        font-family: 'Special Elite', cursive;
+    }
+    .textoAyT {
+        font-size: 2.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    .widthAT {
+        width: 90%; 
+    }
+}
+
+.seccionActoresPrincipal {
+    background-color: $naranja;
+    .tituloActores {
+        text-align: center;
+        background-color: $bordo;
+        padding-top: 20px;
+        font-size: 4rem;
+        font-family: 'Special Elite', cursive;
+    }
+    .actorCard {
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Oswald', sans-serif;
+        h3 {
+            text-align: center;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+        p {
+            font-size: 2rem;
+            text-align: center;
+        }
+        img {
+            height: 70%; 
+        }
+    }
+}

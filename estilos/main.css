@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.logoPrincipal {
+  height: 10vh;
+  margin-left: 50px; }
+
+.navbar {
+  background-color: rgba(248, 244, 232, 0.8); }
+  .navbar ul {
+    width: 100%;
+    justify-content: space-around; }
+    .navbar ul li a {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2rem;
+      font-weight: 600; }
+
+footer {
+  background-color: rgba(248, 244, 232, 0.8); }
+  footer .logoImage {
+    height: 10vh; }
+  footer .redesContacto ul {
+    list-style: none;
+    justify-content: space-around; }
+    footer .redesContacto ul li a {
+      font-size: 4rem;
+      text-decoration: none;
+      color: black;
+      margin: 0 20px 0 20px; }
+  footer .copyright {
+    font-size: 2rem;
+    color: black; }
+
+.portadaContainer {
+  background-image: url("../assets/ww2avionesportada.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh; }
+  .portadaContainer h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 6rem;
+    padding-top: 40px;
+    padding-left: 40px; }
+  .portadaContainer p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    padding-top: 250px;
+    padding-left: 40px; }
+
+@media (max-width: 600px) {
+  .portadaContainer h1 {
+    text-align: center;
+    padding-left: auto; }
+  .portadaContainer p {
+    padding-top: 100px;
+    text-align: center;
+    padding-left: auto; }
+  .portadaTexto {
+    background-color: rgba(255, 255, 255, 0.7); } }
+
+.seccionAyT {
+  background-color: #F8F4E8; }
+  .seccionAyT #tituloAyT {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #F0B45B;
+    font-size: 4rem;
+    font-family: 'Special Elite', cursive; }
+  .seccionAyT .textoAyT {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif; }
+  .seccionAyT .widthAT {
+    width: 90%; }
+
+.seccionActoresPrincipal {
+  background-color: #F0B45B; }
+  .seccionActoresPrincipal .tituloActores {
+    text-align: center;
+    background-color: #A94025;
+    padding-top: 20px;
+    font-size: 4rem;
+    font-family: 'Special Elite', cursive; }
+  .seccionActoresPrincipal .actorCard {
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif; }
+    .seccionActoresPrincipal .actorCard h3 {
+      text-align: center;
+      font-size: 3rem;
+      text-decoration: underline; }
+    .seccionActoresPrincipal .actorCard p {
+      font-size: 2rem;
+      text-align: center; }
+    .seccionActoresPrincipal .actorCard img {
+      height: 70%; }
+
+.actoresPortada {
+  height: 90vh;
+  background-image: url("../assets/actoresPortada.jpg");
+  background-size: cover;
+  width: 100%; }
+  .actoresPortada h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    padding-top: 20px; }
+
+.actoresContainer {
+  background: linear-gradient(#f5c578, #b89763, #a18964, #87775d); }
+  .actoresContainer .actorTexto {
+    font-family: 'Oswald', sans-serif;
+    text-align: center; }
+    .actoresContainer .actorTexto h2 {
+      font-size: 4rem; }
+    .actoresContainer .actorTexto p {
+      font-size: 2.5rem;
+      text-align: justify; }
+  .actoresContainer #imagenStalin {
+    height: 50vh;
+    width: 75vh; }
+  .actoresContainer #imagenHitler {
+    height: 50vh; }
+  .actoresContainer #imagenChurch {
+    height: 50vh; }
+  .actoresContainer #imagenMusso {
+    height: 50vh; }
+  .actoresContainer #imagenRoose {
+    height: 50vh;
+    margin-top: -40px; }
+
+.margenes {
+  margin: 0 50px 0 50px; }
+
+#tituloPrincipalAT {
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  padding: 10px;
+  background-color: #F3E9C9; }
+
+.tituloSeccion {
+  color: white;
+  letter-spacing: 3px;
+  background-color: #5e5b5b;
+  font-family: 'Special Elite', cursive;
+  font-size: 4rem;
+  padding: 10px;
+  text-align: center; }
+
+.seccionContainer {
+  background: linear-gradient(45deg, #c7bfbf, #9c8c8c, #5e5b5b); }
+  .seccionContainer .widthSeccionAviones {
+    width: 90%;
+    margin: auto; }
+  .seccionContainer .avion1 {
+    transition: all 2s; }
+  .seccionContainer .avion1:hover {
+    transform: scale(1.5) rotateZ(10deg); }
+  .seccionContainer .avion2 {
+    transition: all 2s; }
+  .seccionContainer .avion2:hover {
+    transform: scale(1.5) rotateZ(-10deg); }
+  .seccionContainer .avion3 {
+    transition: all 2s; }
+  .seccionContainer .avion3:hover {
+    transform: scale(1.5) rotateZ(-20deg); }
+  .seccionContainer .avion4 {
+    transition: all 2s; }
+  .seccionContainer .avion4:hover {
+    transform: scale(1.5) rotateZ(20deg); }
+  .seccionContainer .avion5 {
+    transition: all 2s; }
+  .seccionContainer .avion5:hover {
+    transform: scale(1.5) rotateZ(20deg); }
+  .seccionContainer .textoAviones {
+    font-family: 'Oswald', sans-serif; }
+    .seccionContainer .textoAviones h3 {
+      font-size: 3rem;
+      text-align: center; }
+    .seccionContainer .textoAviones h3:hover {
+      text-decoration: underline; }
+    .seccionContainer .textoAviones p {
+      font-size: 2rem;
+      text-align: justify; }
+  .seccionContainer .avionImagen {
+    width: 70%; }
+  .seccionContainer .imagenTanque {
+    width: 75%; }
+  .seccionContainer .nombreTanque {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif; }
+  .seccionContainer .tanque11 {
+    transition: all 2s; }
+  .seccionContainer .tanque11:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque12 {
+    transition: all 2s; }
+  .seccionContainer .tanque12:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque13 {
+    transition: all 2s; }
+  .seccionContainer .tanque13:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque21 {
+    transition: all 2s; }
+  .seccionContainer .tanque21:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque22 {
+    transition: all 2s; }
+  .seccionContainer .tanque22:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque23 {
+    transition: all 2s; }
+  .seccionContainer .tanque23:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque31 {
+    transition: all 2s; }
+  .seccionContainer .tanque31:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque32 {
+    transition: all 2s; }
+  .seccionContainer .tanque32:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tanque33 {
+    transition: all 2s; }
+  .seccionContainer .tanque33:hover {
+    transform: scale(1.3); }
+  .seccionContainer .tituloPais {
+    text-align: center;
+    background-color: #f3e9c9;
+    padding: 10px 0 10px 0;
+    font-size: 3.5rem;
+    font-family: 'Special Elite', cursive; }
+
+.bodyForm {
+  background-image: url(../assets/contactoBack.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .bodyForm .formulario {
+    max-width: 800px;
+    padding-top: 50px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10%;
+    padding: 30px; }
+    .bodyForm .formulario .tituloFormulario {
+      text-transform: uppercase;
+      font-family: 'Special Elite', cursive;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 4rem;
+      line-height: 48px;
+      padding-bottom: 20px;
+      color: #F0B45B;
+      background: linear-gradient(to right, #A94025, #F0B45B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .bodyForm .formulario .parrafoFormulario {
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 3rem;
+      line-height: 30px;
+      padding-bottom: 10px;
+      color: #F0B45B;
+      background: linear-gradient(to right, #A94025, #F0B45B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .bodyForm .formulario .contactoForm .campoFormulario {
+      position: relative;
+      margin: 32px 0; }
+    .bodyForm .formulario .contactoForm .input-text {
+      display: block;
+      font-family: 'Oswald', sans-serif;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 2px 0;
+      border-color: #A94025;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400; }
+    .bodyForm .formulario .contactoForm .input-text:focus + .label,
+    .bodyForm .formulario .contactoForm .input-text.not.empty + .label {
+      transform: translateY(-24px); }
+    .bodyForm .formulario .contactoForm .input-text:focus {
+      outline: none; }
+    .bodyForm .formulario .contactoForm .label {
+      position: absolute;
+      font-family: 'Special Elite', cursive;
+      left: 20px;
+      bottom: 11px;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      color: #A94025;
+      cursor: text;
+      text-transform: capitalize;
+      transition: transform 0.2s ease-in-out; }
+    .bodyForm .formulario .contactoForm .submit-btn {
+      display: inline-block;
+      background-image: linear-gradient(125deg, #A94025, #F0B45B);
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      padding: 8px 16px;
+      border: none;
+      width: 200px;
+      cursor: pointer; }
+
+#tituloJuegos {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 5rem;
+  padding-top: 20px;
+  background-color: #F3E9C9;
+  margin-bottom: 0; }
+
+.juegosContainer #battlefield {
+  background-image: url(../assets/bf5back.jpg); }
+
+.juegosContainer #CoH {
+  background-image: url(../assets/CoHback.jpg); }
+
+.juegosContainer #WT {
+  background-image: url(../assets/WT.jpg); }
+
+.juegosContainer #HoI {
+  background-image: url(../assets/HoIback.jpeg); }
+
+.juegosContainer .pantallaOscura {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.juegosContainer .juegosPortada {
+  height: 70vh; }
+
+.juegosContainer .juegoNombre {
+  font-size: 4.5rem;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  display: inline;
+  background-color: #F8F4E8;
+  border-radius: 10px; }
+
+.juegosContainer .botonCompra button {
+  width: 100%;
+  font-family: 'Special Elite', cursive;
+  font-size: 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px 0; }
+
+.juegosContainer .botonCompra button:hover {
+  color: red; }
+
+.juegosContainer .iframeContainer {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  padding-top: 35%; }
+
+.juegosContainer .iframeContainer iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+#tituloLibros {
+  font-size: 5rem;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding-top: 20px; }
+
+.libroTarjeta {
+  border: 1px solid black;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .libroTarjeta img {
+    width: 50%;
+    padding-top: 20px; }
+  .libroTarjeta p {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; }
+  .libroTarjeta a {
+    padding-bottom: 10px;
+    width: 50%; }
+  .libroTarjeta button {
+    width: 100%;
+    font-size: 2rem;
+    border: #615a5b;
+    background-color: #A94025;
+    color: bisque;
+    cursor: pointer;
+    border-radius: 10px; }

@@ -1,0 +1,182 @@
+
+#tituloPrincipalAT {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    padding: 10px; 
+    background-color: #f3e9c9;
+}
+
+.tituloSeccion {
+    color: white; 
+    letter-spacing: 3px;
+    background-color: #5e5b5b;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 4rem;
+    padding: 10px; 
+    text-align: center;
+}
+
+.seccionContainer {
+    background: linear-gradient(45deg, #c7bfbf, #9c8c8c, #5e5b5b);
+}
+
+.avion1 {
+    transition: all 2s;
+}
+
+.avion1:hover {
+    transform: scale(1.5) rotateZ(10deg);
+}
+
+.avion2 {
+    transition: all 2s;
+}
+
+.avion2:hover {
+    transform: scale(1.5) rotateZ(-10deg);
+}
+
+.avion3 {
+    transition: all 2s;
+}
+
+.avion3:hover {
+    transform: scale(1.5) rotateZ(-20deg);
+}
+
+.avion4 {
+    transition: all 2s;
+}
+
+.avion4:hover {
+    transform: scale(1.5) rotateZ(20deg);
+}
+
+.avion5 {
+    transition: all 2s;
+}
+
+.avion5:hover {
+    transform: scale(1.5) rotateZ(20deg);
+}
+
+.widthSeccionAviones {
+    width: 90%; 
+    margin: auto; 
+}
+
+.textoAviones h3, p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.textoAviones h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.textoAviones h3:hover {
+    text-decoration: underline;
+}
+
+.textoAviones p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.avionImagen {
+    width: 70%;  
+}
+
+.imagenTanque {
+    width: 75%;
+}
+
+.nombreTanque {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tanque11 {
+    transition: all 2s;
+}
+
+.tanque11:hover {
+    transform: scale(1.3)
+}
+
+.tanque12 {
+    transition: all 2s;
+}
+
+.tanque12:hover {
+    transform: scale(1.3)
+}
+
+.tanque13 {
+    transition: all 2s;
+}
+
+.tanque13:hover {
+    transform: scale(1.3)
+}
+
+.tanque21 {
+    transition: all 2s;
+}
+
+.tanque21:hover {
+    transform: scale(1.3)
+}
+
+.tanque22 {
+    transition: all 2s;
+}
+
+.tanque22:hover {
+    transform: scale(1.3)
+}
+
+.tanque23 {
+    transition: all 2s;
+}
+
+.tanque23:hover {
+    transform: scale(1.3)
+}
+
+.tanque31 {
+    transition: all 2s;
+}
+
+.tanque31:hover {
+    transform: scale(1.3)
+}
+
+.tanque32 {
+    transition: all 2s;
+}
+
+.tanque32:hover {
+    transform: scale(1.3)
+}
+
+.tanque33 {
+    transition: all 2s;
+}
+
+.tanque33:hover {
+    transform: scale(1.3)
+}
+
+.container-fluid>h3 {
+    text-align: center;
+    background-color: #f3e9c9;
+    padding: 10px 0 10px 0;
+    font-size: 3.5rem;
+    font-family: 'Special Elite', cursive;
+}
+
