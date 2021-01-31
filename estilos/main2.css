@@ -1,0 +1,140 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+.logoPrincipal {
+    height: 10vh;
+    margin-left: 50px; }
+  
+  .navbar {
+    background-color: rgba(248, 244, 232, 0.9); }
+    .navbar ul {
+      width: 100%;
+      justify-content: space-around; }
+      .navbar ul li a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        font-weight: 600; }
+  
+  footer {
+    background-color: rgba(248, 244, 232, 0.9);
+    margin-top: 20px; }
+    footer .logoImage {
+      height: 10vh; }
+    footer .redesContacto ul {
+      list-style: none;
+      justify-content: space-around; }
+      footer .redesContacto ul li a {
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+        margin: 0 20px 0 20px; }
+    footer .copyright {
+      font-size: 2em;
+      color: black; }
+
+.bodyIndexPage {
+    background-image: url("../assets/ww2avionesportada.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.imagenPantallaClara {
+    /*height: 100vh;*/ 
+    background-color: rgba(255, 255, 255, 0.7);
+    /*position: fixed;*/ 
+    width: 100vw; 
+}
+
+.welcome {
+    margin-top: 20px;
+    padding: 20px 0 20px 0; 
+}
+
+.welcome h1, p {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+.welcome h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 5em;
+}
+
+.welcome>p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+.welcome .introTexto {
+    font-family: 'Oswald', cursive;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 20px 20px; 
+}
+
+.welcome .introTexto p {
+    text-align: justify;
+}
+
+.welcome .introTexto ul {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 2;
+    list-style: none;
+}
+
+.tituloSeccion {
+    font-family: 'Special Elite', cursive;
+    font-size: 4em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    background: linear-gradient(to right, darkgray, black 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.avionesTanques .textoAyT {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.actorCardIndexImpar {
+    background-image: linear-gradient(45deg, white, gray);
+    border-radius: 30px;
+}
+
+.actorCardIndexPar {
+    background-image: linear-gradient(45deg, gray, white);
+    border-radius: 30px;
+}
+
+.actorCardIndex img {
+    border-radius: 20%;
+}
+
+.actorNombre {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.actorDescripcion {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
