@@ -315,3 +315,9 @@ html {
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
+
+.audios {
+    margin-bottom: 20px;
+    width: 40%; 
+}
+
