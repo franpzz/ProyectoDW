@@ -321,3 +321,71 @@ html {
     width: 40%; 
 }
 
+.bodyJuegos {
+    background-image: url("../assets/juegosBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.contenedorJuego {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-radius: 10%;
+}
+
+.portadaJuego {
+    width: 90%; 
+    border-radius: 10%;
+}
+
+.tituloJuego {
+    font-size: 3em;
+    font-family: 'Special Elite', curisve;
+    letter-spacing: 4px;
+}
+
+.descripcionJuego {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    margin: auto; 
+}
+
+.botonCompraJuego {
+    font-size: large;
+}
+
+.bodyLibros {
+    background-image: url("../assets/librosBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.tarjetaLibro {
+    background-color: white;
+    border-radius: 10%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.6);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between; 
+}
+
+.tarjetaLibro a {
+    font-size: large;
+    width: 50%; 
+    border-radius: 10%;;
+}
+
+.tarjetaLibro img {
+    border-radius: 10%;
+    margin: auto; 
+}
+
+
