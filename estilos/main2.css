@@ -50,7 +50,7 @@ html {
     /*height: 100vh;*/ 
     background-color: rgba(255, 255, 255, 0.7);
     /*position: fixed;*/ 
-    width: 100vw; 
+    /*width: 100%; */
 }
 
 .welcome {
@@ -260,6 +260,8 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
 }
 
 .nombreActor {
@@ -290,6 +292,8 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
 }
 
 .hitlerBackground {
@@ -298,6 +302,8 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
 }
 
 .stalinBackground {
@@ -306,6 +312,8 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
 }
 
 .mussoliniBackground {
@@ -314,6 +322,8 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
 }
 
 .audios {
