@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <meta name="keywords" content="segunda, guerra, mundial, sgm, contacto, formulario, museo">
     <title>Museo de Guerra - Contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/main2.css">
     <!--<link rel="stylesheet" href="../estilos/styles.css">
     <link rel="stylesheet" type="text/CSS" href="../estilos/estilosContacto.css">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,106 +15,105 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f536bc34d7.js" crossorigin="anonymous"></script> <!--Iconos de fontawesome-->
 </head>
-<body>
-    <!--Header de la página que contendrá el logo y la barra de navegación-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+<body class="bodyForm">
+    <div class="imagenPantallaClara">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand marg-left-brand" href="../index.html">
+                      <img class="logoPrincipal" src="../assets/Logo1.png" alt="Logo Museo de Guerra">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="actores.html">Actores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aviones-tanques.html">Aviones y Tanques</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="juegos.html">Juegos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="libros.html">Libros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section class="formulario">
+                    <h1 class="tituloFormulario">¿Querés colaborar?</h1>
+                    <p class="parrafoFormulario">Completá y nos contactaremos</p>
+                    <div class="container">
+                      <form action="#" method="GET">
+                        <div class="contactoForm row">
+                            <div class="campoFormulario col-lg-6">
+                                <input id="nombre" class="input-text" name="" type="text">
+                                <label for="nombre" class="label">Nombre</label>
+                            </div>
+                            <div class="campoFormulario col-lg-6">
+                                <input id="mail" class="input-text" name="" type="email">
+                                <label for="mail" class="label">E-mail</label>
+                            </div>
+                            <div class="campoFormulario col-lg-6">
+                                <input id="pais" class="input-text" name="" type="text">
+                                <label for="pais" class="label">Pais de residencia</label>
+                            </div>
+                            <div class="campoFormulario col-lg-6">
+                                <input id="edad" class="input-text" name="" type="number" min=18 max=99>
+                                <label for="edad" class="label">Edad</label>
+                            </div>
+                            <div class="campoFormulario col-lg-6">
+                                <input id="mensaje" class="input-text" name="" type="text">
+                                <label for="mensaje" class="label">Comentarios</label>
+                            </div>
+                            <div class="campoFormulario col-lg-6">
+                              <input id="seccion" class="input-text" name="" type="text">
+                              <label for="seccion" class="label">Sección preferida</label>
+                          </div>
+                            <div class="campoFormulario col-lg-12 text-center">
+                                <input class="submit-btn" type="submit" value="submit">
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+            </div>
+        </main>
+        <footer>
             <div class="container-fluid">
-              <a class="navbar-brand marg-left-brand" href="../index.html">
-                  <img class="logoPrincipal" src="../assets/Logo1.png" alt="Logo Museo de Guerra">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="actores.html">Actores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aviones-tanques.html">Aviones y Tanques</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="juegos.html">Juegos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="libros.html">Libros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <!--En main irá el formulario de contacto-->
-    <main>
-      <div class="container-fluid bodyForm">
-        <section class="formulario">
-          <h1 class="tituloFormulario">¿Querés colaborar?</h1>
-          <p class="parrafoFormulario">Completá y nos contactaremos</p>
-          <div class="container">
-            <form action="#" method="GET">
-              <div class="contactoForm row">
-                  <div class="campoFormulario col-lg-6">
-                      <input id="nombre" class="input-text" name="" type="text">
-                      <label for="nombre" class="label">Nombre</label>
-                  </div>
-                  <div class="campoFormulario col-lg-6">
-                      <input id="mail" class="input-text" name="" type="email">
-                      <label for="mail" class="label">E-mail</label>
-                  </div>
-                  <div class="campoFormulario col-lg-6">
-                      <input id="pais" class="input-text" name="" type="text">
-                      <label for="pais" class="label">Pais de residencia</label>
-                  </div>
-                  <div class="campoFormulario col-lg-6">
-                      <input id="edad" class="input-text" name="" type="number" min=18 max=99>
-                      <label for="edad" class="label">Edad</label>
-                  </div>
-                  <div class="campoFormulario col-lg-6">
-                      <input id="mensaje" class="input-text" name="" type="text">
-                      <label for="mensaje" class="label">Comentarios</label>
-                  </div>
-                  <div class="campoFormulario col-lg-6">
-                    <input id="seccion" class="input-text" name="" type="text">
-                    <label for="seccion" class="label">Sección preferida</label>
-                </div>
-                  <div class="campoFormulario col-lg-12 text-center">
-                      <input class="submit-btn" type="submit" value="submit">
-                  </div>
-              </div>
-            </form>
-          </div>
-        </section>
-      </div>
-    </main>
-    <!--Footer donde irá el logo y enlaces a redes sociales y sección contacto-->
-    <footer>
-        <div class="container-fluid">
-            <div class="row"> 
-                <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
-                    <a class="logoFooter" href="index.html"><img class="logoImage" src="../assets/Logo1.png" alt="Logo Museo de Guerra"></a>
-                </div>
-                <div class="col-sm-12 col-lg-6 d-flex align-items-center redesContacto">
-                  <ul class="d-flex justifySpaceAround w-100">
-                    <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></li>
-                    <li><a href="#contacto" target="_blank">Contacto</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center copyright">
-                  <p>Copyright</p>
-                  <i class="far fa-copyright"></i>
+                <div class="row"> 
+                    <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
+                        <a class="logoFooter" href="index.html"><img class="logoImage" src="../assets/Logo1.png" alt="Logo Museo de Guerra"></a>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 d-flex align-items-center redesContacto">
+                      <ul class="d-flex justifySpaceAround w-100">
+                        <li><a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="www.instagram.com"><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href="#contacto" target="_blank">Contacto</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center copyright">
+                      <p>Copyright</p>
+                      <i class="far fa-copyright"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

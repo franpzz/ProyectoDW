@@ -77,11 +77,20 @@ html {
 .welcome .introTexto {
     font-family: 'Oswald', cursive;
     font-size: 2em;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     font-weight: 500;
     padding: 20px 20px; 
 }
+
+.welcome .introTextoClaro {
+    font-family: 'Oswald', cursive;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 20px 20px; 
+}   
 
 .welcome .introTexto p {
     text-align: justify;
@@ -110,6 +119,8 @@ html {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10%;
 }
 
 .actorCardIndexImpar {
@@ -145,6 +156,11 @@ html {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+}
+
+.contenedorAvion {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
 }
 
 .nombreAvion {
@@ -284,6 +300,9 @@ html {
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
     text-align: justify;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px; 
+    border-radius: 10px;
 }
 
 .churchillBackground {
@@ -398,4 +417,88 @@ html {
     margin: auto; 
 }
 
+.formulario {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    max-width: 800px;
+    padding-top: 50px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10%;
+    padding: 30px; }
+    .bodyForm .formulario .tituloFormulario {
+      text-transform: uppercase;
+      font-family: 'Special Elite', cursive;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 4rem;
+      line-height: 48px;
+      padding-bottom: 20px;
+      color: #F0B45B;
+      background: linear-gradient(to right, #A94025, #F0B45B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .bodyForm .formulario .parrafoFormulario {
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 3rem;
+      line-height: 30px;
+      padding-bottom: 10px;
+      color: #F0B45B;
+      background: linear-gradient(to right, #A94025, #F0B45B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .bodyForm .formulario .contactoForm .campoFormulario {
+      position: relative;
+      margin: 32px 0; }
+    .bodyForm .formulario .contactoForm .input-text {
+      display: block;
+      font-family: 'Oswald', sans-serif;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 2px 0;
+      border-color: #A94025;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400; }
+    .bodyForm .formulario .contactoForm .input-text:focus + .label,
+    .bodyForm .formulario .contactoForm .input-text.not.empty + .label {
+      transform: translateY(-24px); }
+    .bodyForm .formulario .contactoForm .input-text:focus {
+      outline: none; }
+    .bodyForm .formulario .contactoForm .label {
+      position: absolute;
+      font-family: 'Special Elite', cursive;
+      left: 20px;
+      bottom: 11px;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      color: #A94025;
+      cursor: text;
+      text-transform: capitalize;
+      transition: transform 0.2s ease-in-out; }
+    .bodyForm .formulario .contactoForm .submit-btn {
+      display: inline-block;
+      background-image: linear-gradient(125deg, #A94025, #F0B45B);
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      padding: 8px 16px;
+      border: none;
+      width: 200px;
+      cursor: pointer; }
+
+.bodyForm {
+    background-image: url("../assets/contactoBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
 
