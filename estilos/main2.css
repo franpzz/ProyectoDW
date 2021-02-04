@@ -21,6 +21,14 @@ html {
         font-size: 2rem;
         font-weight: 600; }
   
+@media (max-width: 600px) {
+    .logoPrincipal {
+        margin-left: 0px; 
+    }
+    .navbar ul li a {
+        font-size: 1.5rem;
+    }
+}
   footer {
     background-color: rgba(248, 244, 232, 0.9);
     margin-top: 20px; }
@@ -37,6 +45,12 @@ html {
     footer .copyright {
       font-size: 2em;
       color: black; }
+
+@media (max-width: 600px) {
+    footer .redesContacto ul li a {
+        font-size: 2rem;
+    }
+}
 
 .bodyIndexPage {
     background-image: url("../assets/ww2avionesportada.jpg");
@@ -74,6 +88,21 @@ html {
     font-size: 3em;
 }
 
+@media (max-width: 600px) {
+    .welcome h1 {
+        letter-spacing:normal;
+        font-size: 3rem;
+        line-height: 1.5;
+        padding: 5%; 
+    }
+    .welcome>p {
+        letter-spacing: normal;
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 10%; 
+    }
+}
+
 .welcome .introTexto {
     font-family: 'Oswald', cursive;
     font-size: 2em;
@@ -92,6 +121,10 @@ html {
     padding: 20px 20px; 
 }   
 
+.welcome .introTextoClaro p {
+    text-align: justify;
+}
+
 .welcome .introTexto p {
     text-align: justify;
 }
@@ -101,6 +134,17 @@ html {
     letter-spacing: 2px;
     line-height: 2;
     list-style: none;
+}
+
+@media (max-width: 600px) {
+    .welcome .introTexto {
+        padding: 10%;
+        font-size: 1.5rem; 
+    }
+    .welcome .introTextoClaro {
+        padding: 10%;
+        font-size: 1.5rem;
+    }
 }
 
 .tituloSeccion {
@@ -113,6 +157,13 @@ html {
     background: linear-gradient(to right, darkgray, black 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+}
+
+@media (max-width: 600px) {
+    .tituloSeccion {
+        font-size: 3rem;
+        padding: 5%; 
+    }
 }
 
 .avionesTanques .textoAyT {
@@ -137,6 +188,17 @@ html {
     border-radius: 20%;
 }
 
+@media (max-width: 600px) {
+    .avionesTanques .textoAyT {
+        font-size: 1.5rem;
+        text-align: justify;
+        padding: 10%;
+    }
+    .avionesTanques img {
+        width: 80%;
+    }
+}
+
 .actorNombre {
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
@@ -148,6 +210,19 @@ html {
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+    .actorNombre {
+        font-size: 2.5rem;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    .actorDescripcion {
+        font-size: 2rem;
+        text-align: justify;
+        padding: 10%;
+    }
 }
 
 .bodyAviones {
@@ -177,6 +252,18 @@ html {
     font-size: 1.8em;
     font-family: 'Oswald', sans-serif;
     text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .nombreAvion {
+        font-size: 2.4rem;
+        letter-spacing: normal;
+        padding: 5%; 
+    }
+    .descripcionAvion {
+        font-size: 2rem;
+        padding: 10%; 
+    }
 }
 
 .avionImagen {
@@ -247,6 +334,33 @@ html {
     transform: scale(1.5) rotateZ(20deg);
 }
 
+@media (max-width: 600px) {
+    .avion1:hover {
+        transform: scale(1.2) rotateZ(10deg);
+    }
+    .avion2:hover {
+        transform: scale(1.2) rotateZ(-10deg);
+    }
+    .avion3:hover {
+        transform: scale(1.2) rotateZ(-20deg);
+    }
+    .avion4:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .avion5:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .avion6:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .avion7:hover {
+        transform: scale(1.2) rotateZ(15deg);
+    }
+    .avion8:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+}
+
 .iframeContainer {
     position: relative;
     margin: auto;
@@ -303,6 +417,24 @@ html {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px; 
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .nombreActor {
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+    }
+    .tituloActor {
+        font-size: 2rem;
+    }
+    .imagenActor {
+        width: 80%; 
+    }
+    .bioActor {
+        font-size: 2rem;
+        padding: 10%; 
+        line-height: 1.8;
+    }
 }
 
 .churchillBackground {
@@ -380,6 +512,13 @@ html {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     margin: auto; 
+}
+
+@media (max-width: 600px) {
+    .descripcionJuego {
+        font-size: 2rem;
+        padding: 10%; 
+    }
 }
 
 .botonCompraJuego {
