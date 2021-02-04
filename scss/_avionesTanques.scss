@@ -1,140 +1,94 @@
-#tituloPrincipalAT {
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-    padding: 10px; 
-    background-color: $pastel;
+.bodyAviones {
+    background-image: url("../assets/backgroundAyT.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
-.tituloSeccion {
-    color: white; 
-    letter-spacing: 3px;
-    background-color: #5e5b5b;
-    font-family: 'Special Elite', cursive;
-    font-size: 4rem;
-    padding: 10px; 
-    text-align: center;
-}
-
-.seccionContainer {
-    background: linear-gradient(45deg, #c7bfbf, #9c8c8c, #5e5b5b);
-    .widthSeccionAviones {
-        width: 90%; 
-        margin: auto; 
+.contenedorAvion {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    .nombreAvion {
+        font-size: 3em;
+        font-family: 'Special Elite', cursive;
+        letter-spacing: 2px;
+    }
+    .nombreAvion:hover {
+        text-decoration: underline;
+    }
+    .descripcionAvion {
+        font-size: 1.8em;
+        font-family: 'Oswald', sans-serif;
+        text-align: justify;
+        letter-spacing: 3px;
+        line-height: 1.8;
+        padding: 2%; 
+    }
+    .avionImagen {
+        width: 70%; 
     }
     .avion1 {
-        transition: all 2s; 
+        transition: all 2s;
     }
     .avion1:hover {
         transform: scale(1.5) rotateZ(10deg);
     }
     .avion2 {
-        transition: all 2s; 
+        transition: all 2s;
     }
     .avion2:hover {
         transform: scale(1.5) rotateZ(-10deg);
     }
     .avion3 {
-        transition: all 2s; 
+        transition: all 2s;
     }
     .avion3:hover {
         transform: scale(1.5) rotateZ(-20deg);
     }
     .avion4 {
-        transition: all 2s; 
+        transition: all 2s;
     }
     .avion4:hover {
         transform: scale(1.5) rotateZ(20deg);
     }
     .avion5 {
-        transition: all 2s; 
+        transition: all 2s;
     }
     .avion5:hover {
         transform: scale(1.5) rotateZ(20deg);
     }
-    .textoAviones {
-        font-family: 'Oswald', sans-serif;
-        h3 {
-            font-size: 3rem;
-            text-align: center;
-        }
-        h3:hover {
-            text-decoration: underline;
-        }
-        p {
-            font-size: 2rem;
-            text-align: justify;
-        }
+    .avion6 {
+        transition: all 2s; 
     }
-    .avionImagen {
-        width: 70%;  
+    .avion6:hover {
+        transform: scale(1.5) rotateZ(20deg);
     }
-    .imagenTanque {
-        width: 75%;
+    .avion7 {
+        transition: all 2s; 
     }
-    .nombreTanque {
-        font-size: 3rem;
-        font-family: 'Oswald', sans-serif;
+    .avion7:hover {
+        transform: scale(1.5) rotateZ(15deg);
     }
-    .tanque11 {
-        transition: all 2s;
+    .avion8 {
+        transition: all 2s; 
     }
-    .tanque11:hover {
-        transform: scale(1.3);
-    }
-    .tanque12 {
-        transition: all 2s;
-    }
-    .tanque12:hover {
-        transform: scale(1.3);
-    }
-    .tanque13 {
-        transition: all 2s;
-    }
-    .tanque13:hover {
-        transform: scale(1.3);
-    }
-    .tanque21 {
-        transition: all 2s;
-    }
-    .tanque21:hover {
-        transform: scale(1.3);
-    }
-    .tanque22 {
-        transition: all 2s;
-    }
-    .tanque22:hover {
-        transform: scale(1.3);
-    }
-    .tanque23 {
-        transition: all 2s;
-    }
-    .tanque23:hover {
-        transform: scale(1.3);
-    }
-    .tanque31 {
-        transition: all 2s;
-    }
-    .tanque31:hover {
-        transform: scale(1.3);
-    }
-    .tanque32 {
-        transition: all 2s;
-    }
-    .tanque32:hover {
-        transform: scale(1.3);
-    }
-    .tanque33 {
-        transition: all 2s;
-    }
-    .tanque33:hover {
-        transform: scale(1.3);
-    }
-    .tituloPais {
-        text-align: center;
-        background-color: #f3e9c9;
-        padding: 10px 0 10px 0;
-        font-size: 3.5rem;
-        font-family: 'Special Elite', cursive;
+    .avion8:hover {
+        transform: scale(1.5) rotateZ(20deg);
     }
 }
+
+.iframeContainer {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    padding-top: 35%; }
+
+.iframeContainer iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }

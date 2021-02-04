@@ -1,49 +1,101 @@
-.actoresPortada {
-    height: 90vh; 
-    background-image: url('../assets/actoresPortada.jpg');
+.bodyActores {
+    background-image: url("../assets/personalidadesSGM.jpg");
     background-size: cover;
-    width: 100%; 
-    h1 {
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.principalPresidentes {
+    .rooseveltBackground {
+        background-image: url("../assets/rooseveltBack.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        padding-right: 0px !important; 
+        padding-left: 0px !important;
+    }
+    .nombreActor {
+        font-size: 4em;
         font-family: 'Special Elite', cursive;
-        font-size: 5rem;
-        text-align: center;
-        color: white; 
-        padding-top: 20px;
+        letter-spacing: 3px;
     }
-}
-
-.actoresContainer {
-    background: linear-gradient(#f5c578, #b89763, #a18964, #87775d);
-    .actorTexto {
+    .tituloActor {
+        text-transform: uppercase;
+        font-size: 3em;
         font-family: 'Oswald', sans-serif;
-        text-align: center;
-        h2 {
-            font-size: 4rem;
-        }
-        p {
-            font-size: 2.5rem;
-            text-align: justify;
-        }
     }
-    #imagenStalin {
-        height: 50vh; 
-        width: 75vh; 
+    .imagenActor {
+        width: 50%; 
     }
-    #imagenHitler {
-        height: 50vh; 
+    .bioActor {
+        font-size: 2em;
+        font-family: 'Oswald', sans-serif;
+        text-align: justify;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px; 
+        border-radius: 10px;
+        line-height: 2;
+        letter-spacing: 3px;
+        padding: 2%; 
     }
-    #imagenChurch {
-        height: 50vh; 
+    .churchillBackground {
+        background-image: url("../assets/churchillBack.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        padding-right: 0px !important; 
+        padding-left: 0px !important;
     }
-    #imagenMusso {
-        height: 50vh; 
+    .hitlerBackground {
+        background-image: url("../assets/hitlerBack.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        padding-right: 0px !important; 
+        padding-left: 0px !important;
     }
-    #imagenRoose {
-        height: 50vh; 
-        margin-top: -40px;
+    .stalinBackground {
+        background-image: url("../assets/stalinBack.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        padding-right: 0px !important; 
+        padding-left: 0px !important;
+    }
+    .mussoliniBackground {
+        background-image: url("../assets/mussoBack.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        padding-right: 0px !important; 
+        padding-left: 0px !important;
+    }
+    .audios {
+        margin-bottom: 20px;
+        width: 40%; 
     }
 }
 
-.margenes {
-    margin: 0 50px 0 50px;
+@media (max-width: 600px) {
+    .nombreActor {
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+    }
+    .tituloActor {
+        font-size: 2rem;
+    }
+    .imagenActor {
+        width: 80%; 
+    }
+    .bioActor {
+        font-size: 2rem;
+        padding: 10%; 
+        line-height: 1.8;
+    }
 }

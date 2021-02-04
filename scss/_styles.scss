@@ -1,7 +1,4 @@
-$blanco: #F8F4E8;
-$pastel: #F3E9C9; 
-$bordo: #A94025;
-$naranja:  #F0B45B; 
+$fondoNavs: rgba(248, 244, 232, 0.9);  
 
 * {
     margin: 0; 
@@ -9,33 +6,34 @@ $naranja:  #F0B45B;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; 
 }
 
 .logoPrincipal {
     height: 10vh; 
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 
 .navbar {
-    background-color: rgba(248, 244, 232, 0.8);
+    background-color: $fondoNavs;
     ul {
         width: 100%; 
         justify-content: space-around;
-        li{
+        li {
             a {
-                font-family: 'Oswald', sans-serif;
-                font-size: 2rem;
-                font-weight: 600;
+            font-family: 'Oswald', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;  
             }
         }
-    } 
+    }
 }
 
 footer {
-    background-color: rgba(248, 244, 232, 0.8);
+    background-color: $fondoNavs;
+    margin-top: 20px;
     .logoImage {
-        height: 10vh; 
+        height: 10vh;
     }
     .redesContacto {
         ul {
@@ -43,16 +41,28 @@ footer {
             justify-content: space-around;
             li {
                 a {
-                    font-size: 4rem;
-                    text-decoration: none; 
+                    font-size: 3em;
+                    text-decoration: none;
                     color: black; 
-                    margin: 0 20px 0 20px; 
+                    margin: 0 20px 0 20px
                 }
             }
         }
     }
     .copyright {
-        font-size: 2rem; 
+        font-size: 2em;
         color: black; 
+    }
+}
+
+@media (max-width: 600px) {
+    .logoPrincipal {
+        margin-left: 0px;
+    }
+    .navbar ul li a {
+        font-size: 1.5rem;
+    }
+    footer .redesContacto ul li a {
+        font-size: 2rem;
     }
 }

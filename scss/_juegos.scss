@@ -1,67 +1,41 @@
-#tituloJuegos {
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-    font-size: 5rem;
-    padding-top: 20px;
-    background-color: $pastel;
-    margin-bottom: 0;
+.bodyJuegos {
+    background-image: url("../assets/juegosBack.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
-.juegosContainer {
-    #battlefield {
-        background-image: url(../assets/bf5back.jpg);
+.contenedorJuego {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-radius: 10%;
+    .portadaJuego {
+        width: 90%; 
+        border-radius: 10%;
     }
-    
-    #CoH {
-        background-image: url(../assets/CoHback.jpg);
+    .tituloJuego {
+        font-size: 3em;
+        font-family: 'Special Elite', curisve;
+        letter-spacing: 4px;
     }
-    
-    #WT {
-        background-image: url(../assets/WT.jpg);
-    }
-    
-    #HoI {
-        background-image: url(../assets/HoIback.jpeg);
-    }
-    .pantallaOscura {
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-    .juegosPortada {
-        height: 70vh;
-    }
-    .juegoNombre {
-        font-size: 4.5rem;
+    .descripcionJuego {
+        font-size: 2em;
         font-family: 'Oswald', sans-serif;
-        text-decoration: underline;
-        letter-spacing: 5px;
-        display: inline;
-        background-color: $blanco;
-        border-radius: 10px;
+        letter-spacing: 2px;
+        margin: auto; 
+        line-height: 2;
+        text-align: center;
     }
-    .botonCompra button {
-        width: 100%;
-        font-family: 'Special Elite', cursive;
-        font-size: 3rem;
-        border-radius: 25px;
-        cursor: pointer;
-        padding: 5px 0;
-    }
-    .botonCompra button:hover {
-        color: red; 
-    }
-    .iframeContainer {
-        position: relative;
-        margin: auto;
-        width: 70%;
-        padding-top: 35%;
-    }
-    .iframeContainer iframe {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
+    .botonCompraJuego {
+        font-size: large;
     }
 }
+
+@media (max-width: 600px) {
+    .descripcionJuego {
+        font-size: 2rem;
+        padding: 10%; 
+    }
+}
+
