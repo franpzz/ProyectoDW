@@ -161,12 +161,12 @@ footer {
     padding: 10%; }
   .avionesTanques img {
     width: 80%; }
-  .actorNombre {
+  .personalidades .actorCardIndex .actorNombre {
     font-size: 2.5rem;
     margin-top: 10px;
     letter-spacing: 2px; }
-  .actorDescripcion {
-    font-size: 2rem;
+  .personalidades .actorCardIndex .actorDescripcion {
+    font-size: 1.5rem;
     text-align: justify;
     padding: 10%; } }
 
@@ -251,15 +251,16 @@ footer {
   width: 40%; }
 
 @media (max-width: 600px) {
-  .nombreActor {
+  .principalPresidentes .nombreActor {
     font-size: 3rem;
-    letter-spacing: 1.5px; }
-  .tituloActor {
+    letter-spacing: 1.5px;
+    text-align: center; }
+  .principalPresidentes .tituloActor {
     font-size: 2rem; }
-  .imagenActor {
+  .principalPresidentes .imagenActor {
     width: 80%; }
-  .bioActor {
-    font-size: 2rem;
+  .principalPresidentes .bioActor {
+    font-size: 1.5rem;
     padding: 10%;
     line-height: 1.8; } }
 
@@ -320,6 +321,32 @@ footer {
     transition: all 2s; }
   .contenedorAvion .avion8:hover {
     transform: scale(1.5) rotateZ(20deg); }
+
+@media (max-width: 600px) {
+  .contenedorAvion .avion1:hover {
+    transform: scale(1.2) rotateZ(10deg); }
+  .contenedorAvion .avion2:hover {
+    transform: scale(1.2) rotateZ(-10deg); }
+  .contenedorAvion .avion3:hover {
+    transform: scale(1.2) rotateZ(-20deg); }
+  .contenedorAvion .avion4:hover {
+    transform: scale(1.2) rotateZ(20deg); }
+  .contenedorAvion .avion5:hover {
+    transform: scale(1.2) rotateZ(20deg); }
+  .contenedorAvion .avion6:hover {
+    transform: scale(1.2) rotateZ(20deg); }
+  .contenedorAvion .avion7:hover {
+    transform: scale(1.2) rotateZ(15deg); }
+  .contenedorAvion .avion8:hover {
+    transform: scale(1.2) rotateZ(20deg); }
+  .contenedorAvion .nombreAvion {
+    font-size: 2.4rem;
+    letter-spacing: normal;
+    padding: 5%;
+    text-align: center; }
+  .contenedorAvion .descripcionAvion {
+    font-size: 1.5rem;
+    padding: 10%; } }
 
 .iframeContainer {
   position: relative;
@@ -449,9 +476,13 @@ footer {
     font-size: large; }
 
 @media (max-width: 600px) {
-  .descripcionJuego {
-    font-size: 2rem;
-    padding: 10%; } }
+  .contenedorJuego .descripcionJuego {
+    font-size: 1.5rem;
+    padding: 10%; }
+  .contenedorJuego .tituloJuego {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5%; } }
 
 .bodyLibros {
   background-image: url("../assets/librosBack.jpg");

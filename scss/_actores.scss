@@ -83,18 +83,19 @@
 }
 
 @media (max-width: 600px) {
-    .nombreActor {
+    .principalPresidentes .nombreActor {
         font-size: 3rem;
         letter-spacing: 1.5px;
+        text-align: center;
     }
-    .tituloActor {
+    .principalPresidentes .tituloActor {
         font-size: 2rem;
     }
-    .imagenActor {
+    .principalPresidentes .imagenActor {
         width: 80%; 
     }
-    .bioActor {
-        font-size: 2rem;
+    .principalPresidentes .bioActor {
+        font-size: 1.5rem;
         padding: 10%; 
         line-height: 1.8;
     }

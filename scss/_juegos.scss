@@ -33,9 +33,14 @@
 }
 
 @media (max-width: 600px) {
-    .descripcionJuego {
-        font-size: 2rem;
+    .contenedorJuego .descripcionJuego {
+        font-size: 1.5rem;
         padding: 10%; 
+    }
+    .contenedorJuego .tituloJuego {
+        margin-top: 10px;
+        text-align: center;
+        padding: 5%; 
     }
 }
 

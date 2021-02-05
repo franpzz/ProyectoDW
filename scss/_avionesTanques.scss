@@ -78,6 +78,43 @@
     }
 }
 
+@media (max-width: 600px) {
+    .contenedorAvion .avion1:hover {
+        transform: scale(1.2) rotateZ(10deg);
+    }
+    .contenedorAvion .avion2:hover {
+        transform: scale(1.2) rotateZ(-10deg);
+    }
+    .contenedorAvion .avion3:hover {
+        transform: scale(1.2) rotateZ(-20deg);
+    }
+    .contenedorAvion .avion4:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .contenedorAvion .avion5:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .contenedorAvion .avion6:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .contenedorAvion .avion7:hover {
+        transform: scale(1.2) rotateZ(15deg);
+    }
+    .contenedorAvion .avion8:hover {
+        transform: scale(1.2) rotateZ(20deg);
+    }
+    .contenedorAvion .nombreAvion {
+        font-size: 2.4rem;
+        letter-spacing: normal;
+        padding: 5%;
+        text-align: center; 
+    }
+    .contenedorAvion .descripcionAvion {
+        font-size: 1.5rem;
+        padding: 10%; 
+    }
+}
+
 .iframeContainer {
     position: relative;
     margin: auto;

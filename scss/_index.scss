@@ -142,13 +142,13 @@
     .avionesTanques img {
         width: 80%;
     }
-    .actorNombre {
+    .personalidades .actorCardIndex .actorNombre {
         font-size: 2.5rem;
         margin-top: 10px;
         letter-spacing: 2px;
     }
-    .actorDescripcion {
-        font-size: 2rem;
+    .personalidades .actorCardIndex .actorDescripcion {
+        font-size: 1.5rem;
         text-align: justify;
         padding: 10%;
     }
