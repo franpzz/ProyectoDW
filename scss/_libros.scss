@@ -26,3 +26,13 @@
         margin: auto; 
     }
 }
+
+.btn-compra {
+    background-color: rgba(159, 161, 159, 0.6);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+.btn-compra:hover {
+    background-color: rgba(159, 161, 159, 0.8);
+}

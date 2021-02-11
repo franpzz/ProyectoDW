@@ -45,8 +45,17 @@ footer {
       color: black;
       margin: 0 20px 0 20px; }
   footer .copyright {
-    font-size: 2em;
+    font-size: 1.5em;
     color: black; }
+
+#btn-twitter {
+  color: #41b7d8; }
+
+#btn-facebook {
+  color: #3b5997; }
+
+#btn-instagram {
+  color: #2A5B83; }
 
 @media (max-width: 600px) {
   .logoPrincipal {
@@ -54,7 +63,9 @@ footer {
   .navbar ul li a {
     font-size: 1.5rem; }
   footer .redesContacto ul li a {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  footer .copyright {
+    font-size: 1rem; } }
 
 .bodyIndexPage {
   background-image: url("../assets/ww2avionesportada.jpg");
@@ -520,3 +531,11 @@ footer {
   .tarjetaLibro img {
     border-radius: 10%;
     margin: auto; }
+
+.btn-compra {
+  background-color: rgba(159, 161, 159, 0.6);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px; }
+
+.btn-compra:hover {
+  background-color: rgba(159, 161, 159, 0.8); }

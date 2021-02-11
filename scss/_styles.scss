@@ -61,8 +61,20 @@ footer {
         }
     }
     .copyright {
-        font-size: 2em;
+        font-size: 1.5em;
         color: black; 
+    }
+}
+
+$redes:(
+    twitter: #41b7d8,
+    facebook: #3b5997,
+    instagram: #2A5B83
+);
+
+@each $red, $color in $redes {
+    #btn-#{$red} {
+        color: $color; 
     }
 }
 
@@ -75,5 +87,8 @@ footer {
     }
     footer .redesContacto ul li a {
         font-size: 2rem;
+    }
+    footer .copyright {
+        font-size: 1rem;
     }
 }
