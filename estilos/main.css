@@ -65,7 +65,21 @@ footer {
   footer .redesContacto ul li a {
     font-size: 2rem; }
   footer .copyright {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .desktop {
+    display: none; } }
+
+@media (min-width: 601px) {
+  .mobile {
+    display: none; } }
+
+.expansorTexto {
+  margin: auto;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color: gray; }
 
 .bodyIndexPage {
   background-image: url("../assets/ww2avionesportada.jpg");
@@ -347,21 +361,21 @@ footer {
 
 @media (max-width: 600px) {
   .contenedorAvion .avion1:hover {
-    transform: scale(1.2) rotateZ(10deg); }
+    transform: scale(1.15) rotateZ(10deg); }
   .contenedorAvion .avion2:hover {
-    transform: scale(1.2) rotateZ(-10deg); }
+    transform: scale(1.15) rotateZ(-10deg); }
   .contenedorAvion .avion3:hover {
-    transform: scale(1.2) rotateZ(-20deg); }
+    transform: scale(1.15) rotateZ(-20deg); }
   .contenedorAvion .avion4:hover {
-    transform: scale(1.2) rotateZ(20deg); }
+    transform: scale(1.15) rotateZ(20deg); }
   .contenedorAvion .avion5:hover {
-    transform: scale(1.2) rotateZ(20deg); }
+    transform: scale(1.15) rotateZ(20deg); }
   .contenedorAvion .avion6:hover {
-    transform: scale(1.2) rotateZ(20deg); }
+    transform: scale(1.15) rotateZ(20deg); }
   .contenedorAvion .avion7:hover {
-    transform: scale(1.2) rotateZ(15deg); }
+    transform: scale(1.15) rotateZ(15deg); }
   .contenedorAvion .avion8:hover {
-    transform: scale(1.2) rotateZ(20deg); }
+    transform: scale(1.15) rotateZ(20deg); }
   .contenedorAvion .nombreAvion {
     font-size: 2.4rem;
     letter-spacing: normal;

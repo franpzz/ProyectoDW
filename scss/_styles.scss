@@ -91,4 +91,22 @@ $redes:(
     footer .copyright {
         font-size: 1rem;
     }
+    .desktop {
+        display: none; 
+    }
+}
+
+@media (min-width: 601px) {
+    .mobile {
+        display: none; 
+    }
+}
+
+.expansorTexto {
+    margin: auto; 
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: gray; 
 }
