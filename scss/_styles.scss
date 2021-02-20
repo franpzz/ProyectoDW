@@ -78,30 +78,6 @@ $redes:(
     }
 }
 
-@media (max-width: 600px) {
-    .logoPrincipal {
-        margin-left: 0px;
-    }
-    .navbar ul li a {
-        font-size: 1.5rem;
-    }
-    footer .redesContacto ul li a {
-        font-size: 2rem;
-    }
-    footer .copyright {
-        font-size: 1rem;
-    }
-    .desktop {
-        display: none; 
-    }
-}
-
-@media (min-width: 601px) {
-    .mobile {
-        display: none; 
-    }
-}
-
 .expansorTexto {
     margin: auto; 
     text-decoration: none;
@@ -110,3 +86,21 @@ $redes:(
     font-size: 2rem;
     color: gray; 
 }
+
+@media only screen and (max-width: 812px) {
+    .logoPrincipal {
+      margin-left: 0px; }
+    .navbar ul li a {
+      font-size: 1.5rem; }
+    footer .redesContacto ul li a {
+      font-size: 2rem; }
+    footer .copyright {
+      font-size: 1rem; }
+    .desktop {
+      display: none; 
+    }
+}
+
+  @media (min-width: 813px) {
+    .mobile {
+      display: none; } }

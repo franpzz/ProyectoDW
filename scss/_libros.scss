@@ -36,3 +36,21 @@
 .btn-compra:hover {
     background-color: rgba(159, 161, 159, 0.8);
 }
+
+@media only screen and (max-width: 812px) {
+    .bodyLibros {
+      background-image:unset; 
+    }
+    .bodyLibros:before {
+      content: ''; 
+      background-image: url('../assets/librosBackMobile.jpg');
+      background-repeat: no-repeat;
+      position: fixed; 
+      top: 0; 
+      left: 0;
+      height: 100%; 
+      width: 100%; 
+      background-size: cover;
+      z-index: -1;
+    }
+}

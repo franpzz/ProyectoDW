@@ -109,47 +109,53 @@
     }
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 812px) {
+    .bodyIndexPage {
+      background-image:unset; 
+    }
+    .bodyIndexPage:before {
+      content: ''; 
+      background-image: url('../assets/ww2avionesportadaMobile.jpg');
+      background-repeat: no-repeat;
+      position: fixed; 
+      top: 0; 
+      left: 0;
+      height: 100%; 
+      width: 100%; 
+      background-size: cover;
+      z-index: -1;
+    }
     .welcome h1 {
-        letter-spacing:normal;
-        font-size: 3rem;
-        line-height: 1.5;
-        padding: 5%; 
-    }
-    .welcome>p {
-        letter-spacing: normal;
-        font-size: 2rem;
-        line-height: 1.5;
-        padding: 10%; 
-    }
+      letter-spacing: normal;
+      font-size: 3rem;
+      line-height: 1.5;
+      padding: 5%; }
+    .welcome > p {
+      letter-spacing: normal;
+      font-size: 2rem;
+      line-height: 1.5;
+      padding: 10%; }
     .welcome .introTexto {
-        padding: 10%;
-        font-size: 1.5rem; 
-    }
+      padding: 10%;
+      font-size: 1.5rem; }
     .welcome .introTextoClaro {
-        padding: 10%;
-        font-size: 1.5rem;
-    }
+      padding: 10%;
+      font-size: 1.5rem; }
     .tituloSeccion {
-        font-size: 3rem;
-        padding: 5%; 
-    }
+      font-size: 3rem;
+      padding: 5%; }
     .avionesTanques .textoAyT {
-        font-size: 1.5rem;
-        text-align: justify;
-        padding: 10%;
-    }
+      font-size: 1.5rem;
+      text-align: justify;
+      padding: 10%; }
     .avionesTanques img {
-        width: 80%;
-    }
+      width: 80%; }
     .personalidades .actorCardIndex .actorNombre {
-        font-size: 2.5rem;
-        margin-top: 10px;
-        letter-spacing: 2px;
-    }
+      font-size: 2.5rem;
+      margin-top: 10px;
+      letter-spacing: 2px; }
     .personalidades .actorCardIndex .actorDescripcion {
-        font-size: 1.5rem;
-        text-align: justify;
-        padding: 10%;
-    }
-}
+      font-size: 1.5rem;
+      text-align: justify;
+      padding: 10%; }
+  }

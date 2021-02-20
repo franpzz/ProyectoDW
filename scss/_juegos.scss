@@ -32,15 +32,28 @@
     }
 }
 
-@media (max-width: 600px) {
-    .contenedorJuego .descripcionJuego {
-        font-size: 1.5rem;
-        padding: 10%; 
+@media only screen and (max-width: 812px) {
+    .bodyJuegos {
+      background-image:unset; 
     }
+    .bodyJuegos:before {
+      content: ''; 
+      background-image: url('../assets/juegosBackMobile.jpg');
+      background-repeat: no-repeat;
+      position: fixed; 
+      top: 0; 
+      left: 0;
+      height: 100%; 
+      width: 100%; 
+      background-size: cover;
+      z-index: -1;
+    }
+    .contenedorJuego .descripcionJuego {
+      font-size: 1.5rem;
+      padding: 10%; }
     .contenedorJuego .tituloJuego {
-        margin-top: 10px;
-        text-align: center;
-        padding: 5%; 
+      margin-top: 10px;
+      text-align: center;
+      padding: 5%; 
     }
 }
-

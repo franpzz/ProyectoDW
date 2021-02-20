@@ -57,7 +57,15 @@ footer {
 #btn-instagram {
   color: #2A5B83; }
 
-@media (max-width: 600px) {
+.expansorTexto {
+  margin: auto;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color: gray; }
+
+@media only screen and (max-width: 812px) {
   .logoPrincipal {
     margin-left: 0px; }
   .navbar ul li a {
@@ -69,17 +77,9 @@ footer {
   .desktop {
     display: none; } }
 
-@media (min-width: 601px) {
+@media (min-width: 813px) {
   .mobile {
     display: none; } }
-
-.expansorTexto {
-  margin: auto;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  color: gray; }
 
 .bodyIndexPage {
   background-image: url("../assets/ww2avionesportada.jpg");
@@ -172,7 +172,20 @@ footer {
 .personalidades .actorCardIndexPar {
   background-image: linear-gradient(45deg, gray, white); }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 812px) {
+  .bodyIndexPage {
+    background-image: unset; }
+  .bodyIndexPage:before {
+    content: '';
+    background-image: url("../assets/ww2avionesportadaMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; }
   .welcome h1 {
     letter-spacing: normal;
     font-size: 3rem;
@@ -287,7 +300,40 @@ footer {
   margin-bottom: 20px;
   width: 40%; }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 812px) {
+  .bodyActores {
+    background-image: unset; }
+  .bodyActores:before {
+    content: '';
+    background-image: url("../assets/personalidadesSGMMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; }
+  .principalPresidentes .rooseveltBackground {
+    background-image: unset;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: unset; }
+  .principalPresidentes .churchillBackground {
+    background-image: unset;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: unset; }
+  .principalPresidentes .hitlerBackground {
+    background-image: unset;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: unset; }
+  .principalPresidentes .stalinBackground {
+    background-image: unset;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: unset; }
+  .principalPresidentes .mussoliniBackground {
+    background-image: unset;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: unset; }
   .principalPresidentes .nombreActor {
     font-size: 3rem;
     letter-spacing: 1.5px;
@@ -359,7 +405,35 @@ footer {
   .contenedorAvion .avion8:hover {
     transform: scale(1.5) rotateZ(20deg); }
 
-@media (max-width: 600px) {
+.iframeContainer {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  padding-top: 35%; }
+
+.iframeContainer iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (max-width: 812px) {
+  .bodyAviones {
+    background-image: unset; }
+  .bodyAviones:before {
+    content: '';
+    background-image: url("../assets/backgroundAyTMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; }
   .contenedorAvion .avion1:hover {
     transform: scale(1.15) rotateZ(10deg); }
   .contenedorAvion .avion2:hover {
@@ -384,21 +458,6 @@ footer {
   .contenedorAvion .descripcionAvion {
     font-size: 1.5rem;
     padding: 10%; } }
-
-.iframeContainer {
-  position: relative;
-  margin: auto;
-  width: 70%;
-  padding-top: 35%; }
-
-.iframeContainer iframe {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%; }
 
 .bodyForm {
   background-image: url("../assets/contactoBack.jpg");
@@ -485,6 +544,21 @@ footer {
   .formulario .contactoForm .submit-btn:hover {
     background-image: linear-gradient(125deg, lightgray, black); }
 
+@media only screen and (max-width: 812px) {
+  .bodyForm {
+    background-image: unset; }
+  .bodyForm:before {
+    content: '';
+    background-image: url("../assets/contactoBackMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; } }
+
 .bodyJuegos {
   background-image: url("../assets/juegosBack.jpg");
   background-size: cover;
@@ -513,7 +587,20 @@ footer {
   .contenedorJuego .botonCompraJuego {
     font-size: large; }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 812px) {
+  .bodyJuegos {
+    background-image: unset; }
+  .bodyJuegos:before {
+    content: '';
+    background-image: url("../assets/juegosBackMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; }
   .contenedorJuego .descripcionJuego {
     font-size: 1.5rem;
     padding: 10%; }
@@ -554,3 +641,18 @@ footer {
 
 .btn-compra:hover {
   background-color: rgba(159, 161, 159, 0.8); }
+
+@media only screen and (max-width: 812px) {
+  .bodyLibros {
+    background-image: unset; }
+  .bodyLibros:before {
+    content: '';
+    background-image: url("../assets/librosBackMobile.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1; } }
